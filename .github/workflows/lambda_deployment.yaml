@@ -8,7 +8,7 @@ on:
 env:
   AWS_REGION: ap-southeast-2
   LAMBDA_FUNCTION_NAME: ajaibPuppeteer
-  AWS_ROLE_TO_ASSUME: arn:aws:iam::311743913613:role/ajaibPuppeteer-role-wzh1ijx0
+  AWS_ROLE_TO_ASSUME: arn:aws:iam::311743913613:role/service-role/ajaibPuppeteer-role-wzh1ijx0
 
 permissions:
   id-token: write
