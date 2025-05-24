@@ -1,6 +1,6 @@
 const express = require("express");
 const puppeteer= require("puppeteer-core");
-const chromium = require("chrome-aws-lambda");
+const chromium = require("@sparticuz/chromium");
 const { buy, bersiap, solvingpin , cekRiwayat , stopLoop} = require("./buy");
 const app = express();
 
